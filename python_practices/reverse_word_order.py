@@ -1,0 +1,5 @@
+user_input = input("Please input a phrase containing many words: ")
+list_of_words = user_input.split()
+reversed_order = reversed(list_of_words)
+reversed_phrase = "".join(str(word) + " " for word in reversed_order)
+print(reversed_phrase)
